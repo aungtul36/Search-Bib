@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.bg-color {
+  background-color: #111;
+  position: static;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+
+
+.box-1 {
+  background-color: white;
+  border-style: solid;
+  border-color: #D8D8D8;
+  border-width: 1px;
+  border-radius: 8px;
+  /* width: 267px; */
+  height: 265px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.margin {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.box-img {
+  /* border-style: solid; */
+  /* width: 237px; */
+  height: 140px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  /* margin-top: 20px; */
+}
+
+.box-search {
+  /* border-style: solid; */
+  display: block;
+  margin: auto;
+  width: 237px;
+  height: 70px;
+  margin-top: -2px;
+}
+
+img {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.a {
+  display: inline-block;
+  border-radius: 8px 8px 0px 0px;
+  transition: 0.3s;
+}
+.a:hover {
+  box-shadow: 0 0 2px 1px rgb(0, 152, 201);
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+
+.bd {
+  border-style: solid;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
+
+.name-margin {
+  margin-top: 0px;
+}
+
+.font-1 {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.box-name {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
